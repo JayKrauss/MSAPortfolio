@@ -23,43 +23,43 @@ class NavbarComponent extends React.Component {
             <Router>
                 <Navbar color="indigo" dark expand="md" scrolling>
                     <NavbarBrand href="/">
-                        <strong>Navbar</strong>
+                        <strong className='navtext'>Jay Krauss</strong>
                     </NavbarBrand>
                     { !this.state.isWideEnough && <NavbarToggler onClick = { this.onClick } />}
                     <Collapse isOpen = { this.state.collapse } navbar>
                         <NavbarNav left>
-                          <NavItem active>
-                              <NavLink to="/">Home</NavLink>
+                        <NavItem active>
+                              <DropdownItem className='navtext' href="/home">Home</DropdownItem>
                           </NavItem>
                           <NavItem>
                             <Dropdown>
-                                <DropdownToggle nav caret>Projects</DropdownToggle>
+                                <DropdownToggle nav caret className='dmnavtext'>Projects</DropdownToggle>
                                 <DropdownMenu>
-                                    <DropdownItem href="/brewersmark">Brewer's Mark</DropdownItem>
-                                    <DropdownItem href="/beattheodds">Beat the Odds</DropdownItem>
-                                    <DropdownItem href="/bootcampprojects">Bootcamp Projects</DropdownItem>
+                                    <DropdownItem className='ddnavtext' href="/brewersmark">Brewer's Mark</DropdownItem>
+                                    <DropdownItem className='ddnavtext' href="/beattheodds">Beat the Odds</DropdownItem>
+                                    <DropdownItem className='ddnavtext' href="/bootcampprojects">Bootcamp Projects</DropdownItem>
                                 </DropdownMenu>
                             </Dropdown>
                           </NavItem>
                           <NavItem active>
-                              <NavLink to="#">Show Me the Code</NavLink>
+                                <DropdownItem className='navtext' href="/showmethecode">Show Me The Code</DropdownItem>
                           </NavItem>
                           <NavItem>
                           <Dropdown>
-                                <DropdownToggle nav caret>Coding Bootcamp</DropdownToggle>
+                                <DropdownToggle nav caret className='dmnavtext'>Coding Bootcamp</DropdownToggle>
                                 <DropdownMenu>
-                                    <DropdownItem href="#">Information</DropdownItem>
-                                    <DropdownItem href="#">My Experience</DropdownItem>
+                                    <DropdownItem className='ddnavtext' href="/bootcampinfo">Information</DropdownItem>
+                                    <DropdownItem className='ddnavtext' href="/bootcampxp">My Experience</DropdownItem>
                                 </DropdownMenu>
                             </Dropdown>
                           </NavItem>
                         </NavbarNav>
                         <NavbarNav right>
                         <NavItem>
-                              <NavLink to="#">Resume</NavLink>
+                                <DropdownItem className='navtext' href="/resume">Resume</DropdownItem>
                           </NavItem>
                           <NavItem>
-                              <NavLink to="#">About Me</NavLink>
+                                <DropdownItem className='navtext' href="/contact">Contact Me</DropdownItem>
                           </NavItem>
                           
                         </NavbarNav>

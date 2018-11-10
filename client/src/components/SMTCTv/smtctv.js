@@ -1,6 +1,6 @@
 import React from 'react';
 import $ from 'jquery';
-import './hometv.css';
+import './smtctv.css';
 
 function Static() {
         $('#monitorscreen').css('background-image' , 'url(./static.gif)')
@@ -10,7 +10,7 @@ function Static() {
     $('#hide').hide();
 }
 
-class HomeTv extends React.Component {
+class SMTCTv extends React.Component {
 
 componentDidMount(){
     Static();
@@ -26,7 +26,7 @@ render(){
         <div id="monitor">
         <div id="monitorscreen">
         <div id='hide'>
-            <h1>Home</h1>
+            <h1>Show Me The Code</h1>
         </div>
         </div>
         </div>
@@ -37,4 +37,4 @@ render(){
 
 }
 
-export default HomeTv;
+export default SMTCTv;
