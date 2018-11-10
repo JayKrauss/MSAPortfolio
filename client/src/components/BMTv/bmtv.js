@@ -26,7 +26,7 @@ render(){
         <div id="monitor">
         <div id="monitorscreen">
         <div id='hide'>
-            <h1>Brewer's Mark</h1>
+        
         </div>
         </div>
         </div>

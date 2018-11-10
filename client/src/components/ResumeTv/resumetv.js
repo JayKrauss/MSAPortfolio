@@ -26,7 +26,7 @@ render(){
         <div id="monitor">
         <div id="monitorscreen">
         <div id='hide'>
-            <h1>Resume</h1>
+        <iframe src="https://drive.google.com/file/d/1HRr040_xdIxmaYV1zkj2jSZUGpuYnb7X/preview" id='resume'></iframe>
         </div>
         </div>
         </div>

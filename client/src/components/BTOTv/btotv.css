@@ -1,4 +1,9 @@
 
+#beatgif{
+  width: 70%;
+  height: auto;
+}
+
 p {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 18px;
@@ -45,12 +50,10 @@ p {
   #monitorscreen {
       position: relative;
       background-color: #777;
-      /* background-size: cover;  */
       background-position: top center;
       height: 0; 
       padding-bottom: 56.25%; 
-      position: relative;
-    overflow: hidden;
+      overflow: scroll;
     padding-left: 5%;
     padding-right:5%;
     padding-top: 5%;

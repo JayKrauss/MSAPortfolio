@@ -37,6 +37,7 @@ class NavbarComponent extends React.Component {
                                 <DropdownMenu>
                                     <DropdownItem className='ddnavtext' href="/brewersmark">Brewer's Mark</DropdownItem>
                                     <DropdownItem className='ddnavtext' href="/beattheodds">Beat the Odds</DropdownItem>
+                                    <DropdownItem className='ddnavtext' href="/brewsforme">Brewsfor.me</DropdownItem>
                                     <DropdownItem className='ddnavtext' href="/bootcampprojects">Bootcamp Projects</DropdownItem>
                                 </DropdownMenu>
                             </Dropdown>
