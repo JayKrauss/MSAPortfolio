@@ -1,17 +1,17 @@
 import React from 'react';
 import $ from 'jquery';
 import NavBarComponent from '../navbar/navbar';
-import HomeTv from '../hometv/hometv.js'
+import BMTv from '../BMTv/bmtv.js'
 
-class Home extends React.Component {
+class BMHome extends React.Component {
     render(){
         return (
             <div>
                 <NavBarComponent />
-                <HomeTv />
+                <BMTv />
             </div>
         );
     }
 }
 
-export default Home;
+export default BMHome;

@@ -21,6 +21,11 @@
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.15.4",
-    "if-env": "^1.0.4"
+    "if-env": "^1.0.4",
+    "mdbreact": "^4.8.2",
+    "react": "^16.6.0",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.6.0",
+    "yarn": "^1.10.1"
   }
 }
