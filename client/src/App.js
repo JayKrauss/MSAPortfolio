@@ -12,8 +12,12 @@ import BTOHome from './components/BeatTheOdds/BTOHome.js';
 import BFMHome from './components/BrewsForMe/BFMHome.js';
 import BCPHome from './components/BootCampProjects/BCPHome.js';
 import SMTCHome from './components/ShowMeTheCode/SMTCHome.js';
+import ResumeHome from './components/Resume/ResumeHome.js';
+import ContactMeHome from './components/ContactMe/ContactMeHome.js';
+import CBInfoHome from './components/CBInfo/CBInfoHome.js';
+import CBXPHome from './components/CBXP/CBXPHome.js';
 
-const App = () => (
+let App = () => (
   <Router>
     <Switch>
       <Route exact path='/' component={Home} />
@@ -23,6 +27,10 @@ const App = () => (
       <Route exact path='/brewsforme' component={BFMHome} />
       <Route exact path='/bootcampprojects' component={BCPHome} />
       <Route exact path='/showmethecode' component={SMTCHome} />
+      <Route exact path='/resume' component={ResumeHome} />
+      <Route exact path='/contact' component={ContactMeHome} />
+      <Route exact path='/bootcampinfo' component={CBInfoHome} />
+      <Route exact path='/bootcampxp' component={CBXPHome} />
     </Switch>
   </Router>
 );

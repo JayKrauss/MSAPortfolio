@@ -6,7 +6,7 @@ function Static() {
         $('#monitorscreen').css('background-image' , 'url(./static.gif)')
     setTimeout(function (){
         $('#monitorscreen').css('background-image' , 'url()')
-    }, 1300)
+    }, 600)
     $('#hide').hide();
 }
 
@@ -16,7 +16,7 @@ componentDidMount(){
     Static();
     setTimeout(function() {
         $('#hide').show()
-        }, 1310);
+        }, 610);
     }   
 
 render(){

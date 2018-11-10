@@ -1,6 +1,6 @@
 import React from 'react';
 import $ from 'jquery';
-import './bmtv.css';
+import './contacttv.css';
 
 function Static() {
         $('#monitorscreen').css('background-image' , 'url(./static.gif)')
@@ -10,7 +10,7 @@ function Static() {
     $('#hide').hide();
 }
 
-class BMTv extends React.Component {
+class ContactMeTv extends React.Component {
 
 componentDidMount(){
     Static();
@@ -26,7 +26,7 @@ render(){
         <div id="monitor">
         <div id="monitorscreen">
         <div id='hide'>
-            <h1>Brewer's Mark</h1>
+            <h1>Contact Me</h1>
         </div>
         </div>
         </div>
@@ -37,4 +37,4 @@ render(){
 
 }
 
-export default BMTv;
+export default ContactMeTv;
